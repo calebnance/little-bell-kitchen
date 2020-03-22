@@ -1,0 +1,46 @@
+{% extends "layout.nunjucks" %}
+
+{# setting page specific content #}
+{% block content %}
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 col-sm-8">
+        <h1>little bell kitchen</h1>
+
+        <ul class="main-menu">
+          <li>
+            <a href="">home</a>
+          </li>
+          <li>
+            <a href="">ingredients</a>
+          </li>
+          <li>
+            <a href="">recipes</a>
+          </li>
+          <li>
+            <a href="">tips &amp; techniques</a>
+          </li>
+          <li>
+            <a href="">about</a>
+          </li>
+        </ul>
+
+        <div class="line-primary w100"></div>
+        <div class="line-pink w100"></div>
+        <div class="line-yellow w100"></div>
+      </div>
+      <div class="col-lg-3 offset-lg-2 col-sm-4">
+        <h3>Search</h3>
+        <div class="line-primary w100"></div>
+        <div class="line-pink w100"></div>
+        <h3>About</h3>
+        <div class="line-primary w100"></div>
+        <div class="line-pink w100"></div>
+        <p>
+          little bell kitchen is a collection of notes, learnings, techniques, and recipes. it's a place for me to document and share what i've learned and continue to learn about my passion for home cooking - using whole, real ingredients.
+        </p>
+        <h3>Recent</h3>
+      </div>
+    </div>
+  </div>
+{% endblock %}

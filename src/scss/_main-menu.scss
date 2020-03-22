@@ -1,0 +1,37 @@
+.main-menu {
+  margin-bottom: 8px;
+
+  li {
+    display: inline-block;
+
+    &:not(:last-child)::after {
+      content: '-';
+      padding: 0 3px;
+    }
+
+    a {
+      color: $primary;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.line-primary {
+  background-color: $primary;
+  height: 1px;
+  margin-bottom: 1px;
+}
+
+.line-pink {
+  background-color: $pink;
+  height: 5px;
+  margin-bottom: 1px;
+}
+
+.line-yellow {
+  background-color: $yellow;
+  height: 3px;
+}

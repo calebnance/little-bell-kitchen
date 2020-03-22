@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="{{ htmlLanguage }}" class="{{ htmlClass }}">
+
+  {% include "partials/head.nunjucks" %}
+
+  <body class="{{ bodyClass }}">
+    {% block content %}
+    {% endblock %}
+  </body>
+</html>

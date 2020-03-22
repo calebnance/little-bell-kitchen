@@ -1,0 +1,38 @@
+{
+  "name": "little-bell-kitchen",
+  "version": "0.0.1",
+  "description": "cooking and recipe site",
+  "main": "index.js",
+  "scripts": {
+    "clean": "gulp clean",
+    "dev": "NODE_ENV=development gulp build",
+    "prod": "NODE_ENV=production gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calebnance/little-bell-kitchen.git"
+  },
+  "keywords": [
+    "recipe",
+    "cooking",
+    "gulp",
+    "static",
+    "html"
+  ],
+  "author": "Caleb Nance",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calebnance/little-bell-kitchen/issues"
+  },
+  "homepage": "https://github.com/calebnance/little-bell-kitchen#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-sass": "^4.0.2",
+    "prettier": "^2.0.1"
+  }
+}

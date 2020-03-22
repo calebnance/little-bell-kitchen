@@ -1,0 +1,32 @@
+/////////////////////////////////////////////
+// base / config
+/////////////////////////////////////////////
+@import 'reset';
+@import 'variables';
+@import 'fonts';
+
+@import 'grid';
+@import 'main-menu';
+@import 'right-nav';
+
+body {
+  color: $primary;
+  font-family: 'Lora-Regular';
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+.w100 {
+  width: 100%;
+}
