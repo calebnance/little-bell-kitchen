@@ -12,11 +12,15 @@
 body {
   color: $primary;
   font-family: 'Lora-Regular';
-  font-size: 16px;
+  font-size: 14px;
 }
 
 h1 {
   font-size: 42px;
+
+  &.main-title {
+    margin-top: 64px;
+  }
 }
 
 h2 {
@@ -25,6 +29,23 @@ h2 {
 
 h3 {
   font-size: 22px;
+}
+
+p {
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.mb4 {
+  margin-bottom: 4px;
+}
+
+.mb8 {
+  margin-bottom: 8px;
+}
+
+.mb16 {
+  margin-bottom: 16px;
 }
 
 .w100 {

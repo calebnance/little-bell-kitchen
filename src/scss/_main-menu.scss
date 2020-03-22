@@ -1,6 +1,4 @@
 .main-menu {
-  margin-bottom: 8px;
-
   li {
     display: inline-block;
 
@@ -14,6 +12,10 @@
       text-decoration: none;
       &:hover {
         text-decoration: underline;
+      }
+
+      &.active {
+        background-color: $pink;
       }
     }
   }

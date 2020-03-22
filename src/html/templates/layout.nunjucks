@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ htmlLanguage }}" class="{{ htmlClass }}">
+<html lang="en" class="{{ htmlClass }}">
 
   {% include "partials/head.nunjucks" %}
 
