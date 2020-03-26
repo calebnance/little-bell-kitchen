@@ -7,7 +7,7 @@
       <div class="col-lg-7 col-sm-8">
         {% include "shared/main-menu.nunjucks" %}
 
-        <h2>ingredients</h2>
+        <h2>tips & techniques</h2>
       </div>
       <div class="col-lg-4 offset-lg-1 col-sm-4">
         {% include "shared/right-nav.nunjucks" %}

@@ -6,9 +6,9 @@
   <title>{{ pageTitle | default('little bell kitchen') | safe }}</title>
   <meta name="description" content="{{ (pageDescr) | safe }}">
   <meta name="keywords" content="{{ (pageKeywords) | safe }}">
-  <meta name="robots" content="{{ robotType }}">
+  <meta name="robots" content="index, follow">
   <link rel="canonical" href="{{ canonical }}">
-  
+
   <meta name="og:title" property="og:title" content="{{ (pageTitle) | safe }}">
 
   <link type="text/css" rel="stylesheet" href="/css/styles.css">

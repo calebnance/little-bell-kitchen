@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" class="{{ htmlClass }}">
+<html lang="en" {% if htmlClass %} class="{{ htmlClass }}" {% endif %}>
 
   {% include "partials/head.nunjucks" %}
 
-  <body class="{{ bodyClass }}">
+  <body {% if bodyClass %} class="{{ bodyClass }}" {% endif %}>
     {% block content %}
     {% endblock %}
   </body>
