@@ -1,0 +1,23 @@
+<h1 class="mb8 mt64">little bell kitchen</h1>
+
+<ul class="main-menu mb8">
+  <li>
+    <a href="/">home</a>
+  </li>
+  <li>
+    <a href="/ingredients.html">ingredients</a>
+  </li>
+  <li>
+    <a href="/recipes.html">recipes</a>
+  </li>
+  <li>
+    <a href="/tips-and-techniques.html">tips &amp; techniques</a>
+  </li>
+  <li>
+    <a href="/about.html">about</a>
+  </li>
+</ul>
+
+<div class="line-primary w100"></div>
+<div class="line-pink w100"></div>
+<div class="line-yellow mb24 w100"></div>

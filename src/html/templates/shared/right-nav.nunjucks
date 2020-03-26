@@ -1,0 +1,13 @@
+<h3 class="mb4 mt110">search</h3>
+<input class="mb24 w100" type="text" />
+
+<h3 class="mb4">about</h3>
+<div class="line-primary w100"></div>
+<div class="line-pink mb8 w100"></div>
+<p>
+  little bell kitchen is a collection of notes, learnings, techniques, and recipes. it's a place for me to document and share what i've learned and continue to learn about my passion for home cooking - using whole, real ingredients.
+</p>
+
+<h3 class="mb4">recent</h3>
+<div class="line-primary w100"></div>
+<div class="line-pink mb8 w100"></div>
