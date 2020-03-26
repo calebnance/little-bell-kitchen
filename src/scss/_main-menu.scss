@@ -9,13 +9,12 @@
 
     a {
       color: $primary;
+      padding: 3px 0;
       text-decoration: none;
-      &:hover {
-        text-decoration: underline;
-      }
+      transition: background-color 400ms ease;
 
-      &.active {
-        background-color: $pink;
+      &:hover {
+        background-color: $yellow;
       }
     }
   }
